@@ -23,3 +23,10 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique 30deg;
+
+
+}
