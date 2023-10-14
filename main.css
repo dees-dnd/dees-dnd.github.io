@@ -1,0 +1,25 @@
+body {
+    background: #5170ff;
+    background: -webkit-linear-gradient(90deg, #5170ff, #ff64c4);
+    background: -moz-linear-gradient(90deg, #5170ff, #ff64c4);
+    background: linear-gradient(90deg, #5170ff, #ff64c4);
+}
+
+#logo {
+    border: white 5px solid;
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
