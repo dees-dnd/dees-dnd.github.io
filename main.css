@@ -1,105 +1,128 @@
 body {
- margin: 0;
- Margin-top: 50px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-    background: #9720a1e8;
-
-}
-
-header {
-    display: flex; 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 50px; 
-    line-height: 50px; 
-}
-
-header * {
-    display: inline;
-    height: 50px;
-}
-
-header ul {
-    padding: 0;
-}
-
-header li {
-    margin-left: 20px;
-}
-
-#logo.png {
-    border: white 5px solid;
-    width: 50px;
-    height: 50px;
-}
-
-#hero .profile.img {
-    width: 300px;
-    border-radius: 50%;
-}
-
-section {
-height: 100vh;
-border: 1px solid black;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-
-background-size: cover; 
-background-position: center center; 
-background-repeat: no-repeat; 
-background-attachment: fixed; 
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.vbox {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
-* {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: oblique 30deg;
-}
-#hero h1 {
-    font-size: 3em;
-}
-
-section h2 {
-    font-size: 2.5em;
-}
-
-section h3 {
-    font-size: 1.5em;
-}
-
-header a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-
-#hero {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75));
-}
-
-#about {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75));
-}
-
-#contact {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(Logo.png);
-}
+    margin: 0;
+    Margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+   
+   
+   
+       background: #9720a1e8;
+   
+   
+   }
+   
+   
+   header {
+       display: flex;
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       height: 50px;
+       line-height: 50px;
+   }
+   
+   
+   header * {
+       display: inline;
+       height: 50px;
+   }
+   
+   
+   header ul {
+       padding: 0;
+   }
+   
+   
+   header li {
+       margin-left: 20px;
+   }
+   
+   
+   #logo {
+       border: white 5px solid;
+       width: 300px;
+       height: 300px;
+   }
+   
+   
+   #hero .profile.img {
+       width: 300px;
+       border-radius: 50%;
+   }
+   
+   
+   section {
+   height: 100vh;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+   
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   }
+   
+   
+   .container {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   
+   
+   
+   .vbox {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+   
+   
+   
+   
+   * {
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-style: oblique 30deg;
+   }
+   #hero h1 {
+       font-size: 3em;
+   }
+   
+   
+   section h2 {
+       font-size: 2.5em;
+   }
+   
+   
+   section h3 {
+       font-size: 1.5em;
+   }
+   
+   
+   header a {
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+   }
+   
+   
+   #hero {
+       background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75));
+   }
+   
+   
+   #about {
+       background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75));
+   }
+   
+   
+   #contact {
+       background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(Logo.png);
+   }
+   
